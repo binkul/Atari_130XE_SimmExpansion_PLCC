@@ -1,0 +1,1040 @@
+EESchema Schematic File Version 4
+LIBS:Atari simm expansion PLCC-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x09 J1
+U 1 1 60352001
+P 6050 1225
+F 0 "J1" H 5775 1750 50  0000 L CNN
+F 1 "4464_A" H 5900 1750 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 6050 1225 50  0001 C CNN
+F 3 "~" H 6050 1225 50  0001 C CNN
+	1    6050 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J2
+U 1 1 60352405
+P 6925 1225
+F 0 "J2" H 6675 1750 50  0000 L CNN
+F 1 "4464_B" H 6800 1750 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 6925 1225 50  0001 C CNN
+F 3 "~" H 6925 1225 50  0001 C CNN
+	1    6925 1225
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 925  0    50   Input ~ 0
+DQ0
+Text GLabel 5850 1025 0    50   Input ~ 0
+DQ1
+Text GLabel 5850 1625 0    50   Input ~ 0
+VCC
+Text GLabel 6725 1125 0    50   Input ~ 0
+DQ2
+Text GLabel 6725 925  0    50   Input ~ 0
+DQ3
+Text GLabel 6725 825  0    50   Input ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x09 J3
+U 1 1 603536D4
+P 7950 1250
+F 0 "J3" H 7700 1775 50  0000 L CNN
+F 1 "4464_A" H 7825 1775 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 7950 1250 50  0001 C CNN
+F 3 "~" H 7950 1250 50  0001 C CNN
+	1    7950 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 850  0    50   Input ~ 0
+OE
+Text GLabel 7750 950  0    50   Input ~ 0
+DQ4
+Text GLabel 7750 1050 0    50   Input ~ 0
+DQ5
+Text GLabel 7750 1150 0    50   Input ~ 0
+WR
+Text GLabel 5850 1225 0    50   Input ~ 0
+RAS
+Text GLabel 7750 1350 0    50   Input ~ 0
+A6
+Text GLabel 7750 1450 0    50   Input ~ 0
+A5
+Text GLabel 7750 1550 0    50   Input ~ 0
+A4
+Text GLabel 7750 1650 0    50   Input ~ 0
+VCC
+$Comp
+L Connector_Generic:Conn_01x09 J4
+U 1 1 60354265
+P 8875 1250
+F 0 "J4" H 8625 1775 50  0000 L CNN
+F 1 "4464_B" H 8750 1775 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 8875 1250 50  0001 C CNN
+F 3 "~" H 8875 1250 50  0001 C CNN
+	1    8875 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8675 850  0    50   Input ~ 0
+GND
+Text GLabel 8675 950  0    50   Input ~ 0
+DQ7
+Text GLabel 8675 1150 0    50   Input ~ 0
+DQ6
+Text GLabel 8675 1250 0    50   Input ~ 0
+A0
+Text GLabel 8675 1350 0    50   Input ~ 0
+A1
+Text GLabel 8675 1450 0    50   Input ~ 0
+A2
+Text GLabel 8675 1550 0    50   Input ~ 0
+A3
+Text GLabel 8675 1650 0    50   Input ~ 0
+A7
+$Comp
+L Atari:DRAM_1MB_4bit U9
+U 1 1 603575E0
+P 8950 3275
+F 0 "U9" H 8950 4240 50  0000 C CNN
+F 1 "DRAM_1MB_4bit" H 8950 4149 50  0000 C CNN
+F 2 "Atari:SOJ-26" H 8950 3675 50  0001 C CNN
+F 3 "" H 8950 3275 50  0001 C CNN
+	1    8950 3275
+	1    0    0    -1  
+$EndComp
+Text GLabel 9400 2675 2    50   Input ~ 0
+OE
+Text GLabel 9400 3825 2    50   Input ~ 0
+VCC
+Text GLabel 9400 3925 2    50   Input ~ 0
+GND
+Text GLabel 8500 3075 0    50   Input ~ 0
+A0
+Text GLabel 8500 3175 0    50   Input ~ 0
+A1
+Text GLabel 8500 3275 0    50   Input ~ 0
+A2
+Text GLabel 8500 3375 0    50   Input ~ 0
+A3
+Text GLabel 8500 3775 0    50   Input ~ 0
+A7
+Text GLabel 8500 3475 0    50   Input ~ 0
+A4
+Text GLabel 8500 3575 0    50   Input ~ 0
+A5
+Text GLabel 8500 3675 0    50   Input ~ 0
+A6
+Text GLabel 8500 2775 0    50   Input ~ 0
+WR
+Text GLabel 9400 2975 2    50   Input ~ 0
+DQ0
+Text GLabel 9400 3075 2    50   Input ~ 0
+DQ1
+Text GLabel 9400 3175 2    50   Input ~ 0
+DQ2
+Text GLabel 9400 3275 2    50   Input ~ 0
+DQ3
+$Comp
+L Atari:DRAM_1MB_4bit U10
+U 1 1 60359515
+P 8950 5450
+F 0 "U10" H 8950 6415 50  0000 C CNN
+F 1 "DRAM_1MB_4bit" H 8950 6324 50  0000 C CNN
+F 2 "Atari:SOJ-26" H 8950 5850 50  0001 C CNN
+F 3 "" H 8950 5450 50  0001 C CNN
+	1    8950 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 4950 0    50   Input ~ 0
+WR
+Text GLabel 9400 4850 2    50   Input ~ 0
+OE
+Text GLabel 8500 5250 0    50   Input ~ 0
+A0
+Text GLabel 8500 5350 0    50   Input ~ 0
+A1
+Text GLabel 8500 5450 0    50   Input ~ 0
+A2
+Text GLabel 8500 5550 0    50   Input ~ 0
+A3
+Text GLabel 8500 5650 0    50   Input ~ 0
+A4
+Text GLabel 8500 5750 0    50   Input ~ 0
+A5
+Text GLabel 8500 5850 0    50   Input ~ 0
+A6
+Text GLabel 8500 5950 0    50   Input ~ 0
+A7
+Text GLabel 9400 6000 2    50   Input ~ 0
+VCC
+Text GLabel 9400 6100 2    50   Input ~ 0
+GND
+Text GLabel 9400 5450 2    50   Input ~ 0
+DQ7
+Text GLabel 9400 5350 2    50   Input ~ 0
+DQ6
+Text GLabel 9400 5150 2    50   Input ~ 0
+DQ4
+Text GLabel 9400 5250 2    50   Input ~ 0
+DQ5
+$Comp
+L Connector_Generic:Conn_01x10 J5
+U 1 1 603617E7
+P 9825 1250
+F 0 "J5" H 9525 1775 50  0000 L CNN
+F 1 "SMMU_A" H 9675 1775 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9825 1250 50  0001 C CNN
+F 3 "~" H 9825 1250 50  0001 C CNN
+	1    9825 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J6
+U 1 1 603625A9
+P 10600 1275
+F 0 "J6" H 10325 1825 50  0000 L CNN
+F 1 "SMMU_B" H 10450 1825 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 10600 1275 50  0001 C CNN
+F 3 "~" H 10600 1275 50  0001 C CNN
+	1    10600 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J7
+U 1 1 6036496C
+P 3050 6725
+F 0 "J7" H 3130 6717 50  0000 L CNN
+F 1 "MMU_A" H 3130 6626 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 3050 6725 50  0001 C CNN
+F 3 "~" H 3050 6725 50  0001 C CNN
+	1    3050 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J8
+U 1 1 603651E4
+P 3975 6725
+F 0 "J8" H 4055 6717 50  0000 L CNN
+F 1 "MMU_A" H 4055 6626 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 3975 6725 50  0001 C CNN
+F 3 "~" H 3975 6725 50  0001 C CNN
+	1    3975 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS157 U4
+U 1 1 60369230
+P 6375 5400
+F 0 "U4" H 6150 6175 50  0000 C CNN
+F 1 "74LS157" H 6575 6175 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 6375 5400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 6375 5400 50  0001 C CNN
+	1    6375 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari:MMU U3
+U 1 1 60371C8E
+P 1650 6650
+F 0 "U3" H 1200 7700 50  0000 C CNN
+F 1 "MMU" H 2050 7700 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" V 1650 6700 50  0001 C CNN
+F 3 "" H 1650 6650 50  0001 C CNN
+	1    1650 6650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3625 3800 0    50   Input ~ 0
+REF
+Text GLabel 3625 3900 0    50   Input ~ 0
+A14
+Text GLabel 3625 4000 0    50   Input ~ 0
+A15
+Text GLabel 3625 4100 0    50   Input ~ 0
+PB2
+Text GLabel 3625 4200 0    50   Input ~ 0
+PB3
+Text GLabel 3625 4300 0    50   Input ~ 0
+PB4
+Text GLabel 2800 5000 0    50   Input ~ 0
+PB5
+Text GLabel 2800 4900 0    50   Input ~ 0
+HALT
+Text GLabel 4125 3500 1    50   Input ~ 0
+VCC
+Text GLabel 4125 5200 3    50   Input ~ 0
+GND
+Text GLabel 2250 6800 2    50   Input ~ 0
+A11a
+Text GLabel 2250 6900 2    50   Input ~ 0
+A12a
+Text GLabel 2250 7000 2    50   Input ~ 0
+A13a
+Text GLabel 2250 7100 2    50   Input ~ 0
+A14a
+Text GLabel 2250 7200 2    50   Input ~ 0
+A15a
+Text GLabel 2850 6325 0    50   Input ~ 0
+A11a
+Text GLabel 2850 6425 0    50   Input ~ 0
+A12a
+Text GLabel 2850 6525 0    50   Input ~ 0
+A13a
+Text GLabel 2850 6725 0    50   Input ~ 0
+A15a
+Text GLabel 1050 6850 0    50   Input ~ 0
+VCCa
+Text GLabel 1050 7150 0    50   Input ~ 0
+GNDa
+Text GLabel 1050 6200 0    50   Input ~ 0
+S4
+Text GLabel 1050 6350 0    50   Input ~ 0
+S5
+Text GLabel 1050 6500 0    50   Input ~ 0
+RD5
+Text GLabel 1050 6650 0    50   Input ~ 0
+RD4
+Text GLabel 2250 7400 2    50   Input ~ 0
+MPB
+Text GLabel 2250 7500 2    50   Input ~ 0
+CI
+Text GLabel 2850 6625 0    50   Input ~ 0
+A14a
+Text GLabel 2850 6925 0    50   Input ~ 0
+RD4
+Text GLabel 2850 7025 0    50   Input ~ 0
+RD5
+Text GLabel 2850 7225 0    50   Input ~ 0
+GNDa
+Text GLabel 3775 6325 0    50   Input ~ 0
+VCCa
+Text GLabel 1050 6050 0    50   Input ~ 0
+REF
+Text GLabel 3775 7225 0    50   Input ~ 0
+REF
+Text GLabel 3775 7125 0    50   Input ~ 0
+S5
+Text GLabel 3775 6425 0    50   Input ~ 0
+S4
+Text GLabel 2250 6100 2    50   Input ~ 0
+BASIC
+Text GLabel 2250 6000 2    50   Input ~ 0
+OS
+Text GLabel 3775 7025 0    50   Input ~ 0
+BASIC
+Text GLabel 3775 6825 0    50   Input ~ 0
+OS
+Text GLabel 3775 6925 0    50   Input ~ 0
+MPB
+Text GLabel 3775 6725 0    50   Input ~ 0
+CI
+Text GLabel 2250 5800 2    50   Input ~ 0
+IO
+Text GLabel 3775 6625 0    50   Input ~ 0
+IO
+Text GLabel 2850 7125 0    50   Input ~ 0
+PB0
+Wire Wire Line
+	9625 1450 9625 1550
+Wire Wire Line
+	9625 1550 9625 1650
+Connection ~ 9625 1550
+Wire Wire Line
+	9625 1650 9625 1750
+Connection ~ 9625 1650
+Wire Wire Line
+	10400 1675 10400 1775
+Text GLabel 10400 1775 0    50   Input ~ 0
+GND
+Text GLabel 9625 1750 0    50   Input ~ 0
+GND
+Text GLabel 10400 875  0    50   Input ~ 0
+VCC
+Text GLabel 9625 850  0    50   Input ~ 0
+A14
+Text GLabel 9625 950  0    50   Input ~ 0
+A15
+Text GLabel 9625 1050 0    50   Input ~ 0
+PB2
+Text GLabel 9625 1150 0    50   Input ~ 0
+PB3
+Text GLabel 9625 1250 0    50   Input ~ 0
+PB4
+Text GLabel 9625 1350 0    50   Input ~ 0
+CAS
+Text GLabel 10400 1375 0    50   Input ~ 0
+CASMAN
+Text GLabel 10400 1475 0    50   Input ~ 0
+CASBNK
+Text GLabel 10400 1575 0    50   Input ~ 0
+HALT
+Text GLabel 10400 1275 0    50   Input ~ 0
+FA14
+Text GLabel 10400 1175 0    50   Input ~ 0
+FA15
+Text GLabel 10400 1075 0    50   Input ~ 0
+PB5
+Text GLabel 10400 975  0    50   Input ~ 0
+O2
+Wire Wire Line
+	8500 2575 8025 2575
+Wire Wire Line
+	8025 2575 8025 4750
+Wire Wire Line
+	8025 4750 8500 4750
+Wire Wire Line
+	5875 6000 5525 6000
+Wire Wire Line
+	5525 6000 5525 6725
+Wire Wire Line
+	5525 6725 6925 6725
+Wire Wire Line
+	6925 6725 6925 6275
+Wire Wire Line
+	6925 6275 8025 6275
+Wire Wire Line
+	8025 6275 8025 4750
+Connection ~ 8025 4750
+Wire Wire Line
+	5525 6000 3000 6000
+Connection ~ 5525 6000
+Wire Wire Line
+	8500 3875 8125 3875
+Wire Wire Line
+	8125 3875 8125 6050
+Wire Wire Line
+	8125 6050 8500 6050
+Wire Wire Line
+	8500 3975 8250 3975
+Wire Wire Line
+	8250 3975 8250 6150
+Wire Wire Line
+	8250 6150 8500 6150
+Wire Wire Line
+	6875 4800 6875 3875
+Wire Wire Line
+	6875 3875 8125 3875
+Connection ~ 8125 3875
+Wire Wire Line
+	6875 5100 6975 5100
+Wire Wire Line
+	6975 5100 6975 3975
+Wire Wire Line
+	6975 3975 8250 3975
+Connection ~ 8250 3975
+Text GLabel 6875 2875 2    50   Input ~ 0
+BE
+Text GLabel 6875 2675 2    50   Input ~ 0
+MAP
+Text GLabel 1050 7400 0    50   Input ~ 0
+MAP
+Text GLabel 2250 5900 2    50   Input ~ 0
+BE
+Wire Wire Line
+	5875 2675 5650 2675
+Wire Wire Line
+	5650 2675 5650 5100
+Wire Wire Line
+	5650 5100 5875 5100
+Wire Wire Line
+	5875 2875 5725 2875
+Wire Wire Line
+	5725 2875 5725 5200
+Wire Wire Line
+	5725 5200 5875 5200
+Text GLabel 2475 2875 0    50   Input ~ 0
+PB1
+Wire Wire Line
+	5725 2875 2475 2875
+Connection ~ 5725 2875
+Text GLabel 2475 2675 0    50   Input ~ 0
+PB7
+Wire Wire Line
+	5650 2675 2475 2675
+Connection ~ 5650 2675
+Text GLabel 2475 2500 0    50   Input ~ 0
+PB6
+Wire Wire Line
+	2475 2500 5800 2500
+Wire Wire Line
+	5800 2500 5800 4900
+Wire Wire Line
+	5800 4900 5875 4900
+Wire Wire Line
+	5875 6100 5875 6400
+Wire Wire Line
+	5875 6400 6375 6400
+Text GLabel 6375 6400 3    50   Input ~ 0
+GND
+Text GLabel 6375 4500 1    50   Input ~ 0
+VCC
+Text GLabel 6375 3875 3    50   Input ~ 0
+GND
+Text GLabel 6375 2325 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	5875 3575 5575 3575
+Wire Wire Line
+	5575 3575 5575 3075
+Wire Wire Line
+	5575 2375 6375 2375
+Wire Wire Line
+	6375 2325 6375 2375
+Wire Wire Line
+	8500 4850 7900 4850
+Wire Wire Line
+	7900 4850 7900 3775
+Wire Wire Line
+	7900 2675 8500 2675
+Wire Wire Line
+	5475 4175 6775 4175
+Wire Wire Line
+	6775 4175 6775 3775
+Wire Wire Line
+	6775 3775 7900 3775
+Connection ~ 7900 3775
+Wire Wire Line
+	7900 3775 7900 2675
+Text GLabel 2475 3050 0    50   Input ~ 0
+CASMAN
+Wire Wire Line
+	4850 3050 2475 3050
+Text GLabel 2475 2350 0    50   Input ~ 0
+FA14
+Text GLabel 2475 2200 0    50   Input ~ 0
+FA15
+Wire Wire Line
+	2475 2350 4950 2350
+Text GLabel 2475 2050 0    50   Input ~ 0
+O2
+Text GLabel 2800 4400 0    50   Input ~ 0
+CAS
+NoConn ~ 6875 2975
+NoConn ~ 6875 2775
+NoConn ~ 6875 3075
+NoConn ~ 6875 3175
+NoConn ~ 6875 3275
+NoConn ~ 6875 3375
+NoConn ~ 6875 5400
+NoConn ~ 6875 5700
+Wire Wire Line
+	5875 5400 5875 5500
+Wire Wire Line
+	5875 5700 5875 5800
+Text GLabel 5875 5800 0    50   Input ~ 0
+GND
+Wire Wire Line
+	5875 3075 5875 3275
+Wire Wire Line
+	5875 3075 5575 3075
+Connection ~ 5575 3075
+Wire Wire Line
+	5575 3075 5575 2375
+Text GLabel 750  1300 3    50   Input ~ 0
+PB2
+Text GLabel 900  1300 3    50   Input ~ 0
+PB3
+Text GLabel 1050 1300 3    50   Input ~ 0
+PB4
+Text GLabel 1200 1300 3    50   Input ~ 0
+PB5
+Text GLabel 1350 1300 3    50   Input ~ 0
+PB6
+$Comp
+L Device:R R1
+U 1 1 603D80E2
+P 750 1100
+F 0 "R1" V 750 1050 50  0000 L CNN
+F 1 "10k" V 820 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 680 1100 50  0001 C CNN
+F 3 "~" H 750 1100 50  0001 C CNN
+	1    750  1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 603D8775
+P 900 1100
+F 0 "R2" V 900 1050 50  0000 L CNN
+F 1 "10k" V 970 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 830 1100 50  0001 C CNN
+F 3 "~" H 900 1100 50  0001 C CNN
+	1    900  1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 603D8A27
+P 1050 1100
+F 0 "R3" V 1050 1050 50  0000 L CNN
+F 1 "10k" V 1120 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 980 1100 50  0001 C CNN
+F 3 "~" H 1050 1100 50  0001 C CNN
+	1    1050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 603D8CC6
+P 1200 1100
+F 0 "R4" V 1200 1050 50  0000 L CNN
+F 1 "10k" V 1270 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1130 1100 50  0001 C CNN
+F 3 "~" H 1200 1100 50  0001 C CNN
+	1    1200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 603D8F06
+P 1350 1100
+F 0 "R5" V 1350 1050 50  0000 L CNN
+F 1 "10k" V 1420 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1280 1100 50  0001 C CNN
+F 3 "~" H 1350 1100 50  0001 C CNN
+	1    1350 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  1250 750  1300
+Wire Wire Line
+	900  1250 900  1300
+Wire Wire Line
+	1050 1250 1050 1300
+Wire Wire Line
+	1200 1250 1200 1300
+Wire Wire Line
+	1350 1250 1350 1300
+Text GLabel 750  850  1    50   Input ~ 0
+VCCa
+Text GLabel 900  850  1    50   Input ~ 0
+VCCa
+Text GLabel 1050 850  1    50   Input ~ 0
+VCCa
+Text GLabel 1200 850  1    50   Input ~ 0
+VCCa
+Text GLabel 1350 850  1    50   Input ~ 0
+VCCa
+Wire Wire Line
+	750  850  750  950 
+Wire Wire Line
+	900  850  900  950 
+Wire Wire Line
+	1050 850  1050 950 
+Wire Wire Line
+	1200 850  1200 950 
+Wire Wire Line
+	1350 850  1350 950 
+$Comp
+L Device:R R6
+U 1 1 603F4DB0
+P 850 3575
+F 0 "R6" V 850 3525 50  0000 L CNN
+F 1 "10k" V 800 3675 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 780 3575 50  0001 C CNN
+F 3 "~" H 850 3575 50  0001 C CNN
+	1    850  3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 603F50DC
+P 1000 3575
+F 0 "R7" V 1000 3525 50  0000 L CNN
+F 1 "10k" V 1050 3675 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 930 3575 50  0001 C CNN
+F 3 "~" H 1000 3575 50  0001 C CNN
+	1    1000 3575
+	1    0    0    -1  
+$EndComp
+Text GLabel 850  3325 1    50   Input ~ 0
+VCC
+Text GLabel 1000 3325 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	850  3325 850  3425
+Wire Wire Line
+	1000 3325 1000 3425
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J9
+U 1 1 604016AD
+P 1400 3875
+F 0 "J9" H 1450 4092 50  0000 C CNN
+F 1 "Mem_On_Off" H 1450 4001 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 1400 3875 50  0001 C CNN
+F 3 "~" H 1400 3875 50  0001 C CNN
+	1    1400 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3875 1700 3975
+Text GLabel 1700 3975 2    50   Input ~ 0
+GND
+$Comp
+L Device:C C1
+U 1 1 6040C24B
+P 2600 1150
+F 0 "C1" H 2625 1250 50  0000 L CNN
+F 1 "100nF" H 2650 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2638 1000 50  0001 C CNN
+F 3 "~" H 2600 1150 50  0001 C CNN
+	1    2600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 6040C8FC
+P 2900 1150
+F 0 "C2" H 2925 1250 50  0000 L CNN
+F 1 "100nF" H 2950 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2938 1000 50  0001 C CNN
+F 3 "~" H 2900 1150 50  0001 C CNN
+	1    2900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6040CB50
+P 3200 1150
+F 0 "C3" H 3225 1250 50  0000 L CNN
+F 1 "100nF" H 3250 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3238 1000 50  0001 C CNN
+F 3 "~" H 3200 1150 50  0001 C CNN
+	1    3200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 6040CDDB
+P 3550 1150
+F 0 "C4" H 3575 1250 50  0000 L CNN
+F 1 "100nF" H 3600 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3588 1000 50  0001 C CNN
+F 3 "~" H 3550 1150 50  0001 C CNN
+	1    3550 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6040D11A
+P 3850 1150
+F 0 "C5" H 3875 1250 50  0000 L CNN
+F 1 "100nF" H 3900 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3888 1000 50  0001 C CNN
+F 3 "~" H 3850 1150 50  0001 C CNN
+	1    3850 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1000 2900 1000
+Wire Wire Line
+	3200 1000 3550 1000
+Wire Wire Line
+	3850 1000 3550 1000
+Connection ~ 3550 1000
+Wire Wire Line
+	3200 1000 2900 1000
+Connection ~ 3200 1000
+Connection ~ 2900 1000
+Wire Wire Line
+	2600 1300 2900 1300
+Wire Wire Line
+	2900 1300 3200 1300
+Connection ~ 2900 1300
+Wire Wire Line
+	3550 1300 3200 1300
+Connection ~ 3200 1300
+Wire Wire Line
+	3850 1300 3550 1300
+Connection ~ 3550 1300
+Text GLabel 3200 825  1    50   Input ~ 0
+VCC
+Text GLabel 3200 1475 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3200 825  3200 1000
+Wire Wire Line
+	3200 1300 3200 1475
+Text GLabel 1050 5900 0    50   Input ~ 0
+PB0
+Text GLabel 3775 6525 0    50   Input ~ 0
+PB1
+Text GLabel 2850 6825 0    50   Input ~ 0
+PB7
+$Comp
+L Connector_Generic:Conn_01x08 J10
+U 1 1 6036F9B5
+P 1075 2500
+F 0 "J10" H 1155 2492 50  0000 L CNN
+F 1 "PB0..7" H 1155 2401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1075 2500 50  0001 C CNN
+F 3 "~" H 1075 2500 50  0001 C CNN
+	1    1075 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 875  2200 0    50   Input ~ 0
+PB0
+Text GLabel 875  2300 0    50   Input ~ 0
+PB1
+Text GLabel 875  2400 0    50   Input ~ 0
+PB2
+Text GLabel 875  2500 0    50   Input ~ 0
+PB3
+Text GLabel 875  2600 0    50   Input ~ 0
+PB4
+Text GLabel 875  2700 0    50   Input ~ 0
+PB5
+Text GLabel 875  2800 0    50   Input ~ 0
+PB6
+Text GLabel 875  2900 0    50   Input ~ 0
+PB7
+Wire Wire Line
+	5875 5500 5875 5700
+Connection ~ 5875 5500
+Connection ~ 5875 5700
+Wire Wire Line
+	850  3725 850  3875
+Wire Wire Line
+	1000 3725 1000 3975
+Wire Wire Line
+	1200 3875 850  3875
+Connection ~ 850  3875
+Wire Wire Line
+	1200 3975 1000 3975
+Connection ~ 1000 3975
+$Comp
+L 74xx:74LS04 U13
+U 1 1 6037E9C1
+P 10650 5850
+F 0 "U13" V 10696 5670 50  0000 R CNN
+F 1 "74LS04" V 10605 5670 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10650 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10650 5850 50  0001 C CNN
+	1    10650 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS04 U13
+U 2 1 60380CDF
+P 10650 5175
+F 0 "U13" V 10696 4995 50  0000 R CNN
+F 1 "74LS04" V 10605 4995 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10650 5175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10650 5175 50  0001 C CNN
+	2    10650 5175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS04 U13
+U 3 1 60386244
+P 10650 4475
+F 0 "U13" V 10696 4295 50  0000 R CNN
+F 1 "74LS04" V 10605 4295 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10650 4475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10650 4475 50  0001 C CNN
+	3    10650 4475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS04 U13
+U 4 1 60387330
+P 10650 2375
+F 0 "U13" V 10696 2195 50  0000 R CNN
+F 1 "74LS04" V 10605 2195 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10650 2375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10650 2375 50  0001 C CNN
+	4    10650 2375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS04 U13
+U 5 1 6038D79D
+P 10650 3075
+F 0 "U13" V 10696 2895 50  0000 R CNN
+F 1 "74LS04" V 10605 2895 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10650 3075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10650 3075 50  0001 C CNN
+	5    10650 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS04 U13
+U 6 1 6038E872
+P 10650 3775
+F 0 "U13" V 10696 3595 50  0000 R CNN
+F 1 "74LS04" V 10605 3595 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10650 3775 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10650 3775 50  0001 C CNN
+	6    10650 3775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10650 4075 10650 4175
+Wire Wire Line
+	10650 4775 10650 4875
+Wire Wire Line
+	10650 3375 10650 3475
+Wire Wire Line
+	10650 5475 10650 5550
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J11
+U 1 1 603A9004
+P 9850 4325
+F 0 "J11" H 9900 4642 50  0000 C CNN
+F 1 "RAS_sel" H 9900 4551 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x04_P2.00mm_Vertical" H 9850 4325 50  0001 C CNN
+F 3 "~" H 9850 4325 50  0001 C CNN
+	1    9850 4325
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 4225 2    50   Input ~ 0
+RAS
+Wire Wire Line
+	10150 4525 10475 4525
+Wire Wire Line
+	10475 4525 10475 4775
+Wire Wire Line
+	10475 4775 10650 4775
+Connection ~ 10650 4775
+Wire Wire Line
+	10650 2675 10650 2775
+Wire Wire Line
+	10150 4325 10400 4325
+Wire Wire Line
+	10475 4425 10475 3475
+Wire Wire Line
+	10475 3475 10650 3475
+Wire Wire Line
+	10150 4425 10475 4425
+Connection ~ 10650 3475
+Text GLabel 9650 4225 0    50   Input ~ 0
+RAS_OUT
+Wire Wire Line
+	9650 4325 9650 4425
+Wire Wire Line
+	9650 4425 9650 4525
+Connection ~ 9650 4425
+Wire Wire Line
+	9650 4325 9650 4225
+Connection ~ 9650 4325
+$Comp
+L 74xx:74LS04 U13
+U 7 1 603A40BC
+P 10025 2625
+F 0 "U13" H 9725 2975 50  0000 L CNN
+F 1 "74LS04" H 10075 3000 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10025 2625 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10025 2625 50  0001 C CNN
+	7    10025 2625
+	1    0    0    -1  
+$EndComp
+Text GLabel 10025 3125 3    50   Input ~ 0
+GND
+Text GLabel 10025 2125 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	10400 2075 10650 2075
+Wire Wire Line
+	10400 2075 10400 4325
+Text GLabel 10650 6150 3    50   Input ~ 0
+RAS
+Text GLabel 2825 3700 0    50   Input ~ 0
+RAS_OUT
+Wire Wire Line
+	2475 2200 5050 2200
+Wire Wire Line
+	2475 2050 5175 2050
+$Comp
+L Atari:GAL16V8_PLCC U1
+U 1 1 6039BFAC
+P 4125 4350
+F 0 "U1" H 3825 5100 50  0000 C CNN
+F 1 "GAL16V8_PLCC" H 4425 5100 50  0000 C CNN
+F 2 "Package_LCC:PLCC-28" H 4125 4350 50  0001 C CNN
+F 3 "" H 4125 4350 50  0001 C CNN
+	1    4125 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 3700 3000 3700
+Wire Wire Line
+	3000 6000 3000 3700
+Connection ~ 3000 3700
+Wire Wire Line
+	3000 3700 3625 3700
+Wire Wire Line
+	3625 4400 2800 4400
+Wire Wire Line
+	3625 4500 1000 4500
+Wire Wire Line
+	1000 3975 1000 4500
+Wire Wire Line
+	3625 4600 850  4600
+Wire Wire Line
+	850  3875 850  4600
+NoConn ~ 3625 4700
+Text GLabel 3150 5200 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3625 4800 3150 4800
+Wire Wire Line
+	3150 4800 3150 5200
+Wire Wire Line
+	3625 4900 2800 4900
+Wire Wire Line
+	3625 5000 2800 5000
+NoConn ~ 4625 4300
+Connection ~ 6375 2375
+Connection ~ 5875 3075
+$Comp
+L 74xx:74LS175 U2
+U 1 1 6036850B
+P 6375 3075
+F 0 "U2" H 6150 3650 50  0000 C CNN
+F 1 "74LS175" H 6575 3650 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 6375 3075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS175" H 6375 3075 50  0001 C CNN
+	1    6375 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 3475 4625 3475
+Wire Wire Line
+	4625 3475 4625 3800
+Wire Wire Line
+	5475 4175 5475 3900
+Wire Wire Line
+	5475 3900 4625 3900
+Wire Wire Line
+	4850 4000 4625 4000
+Wire Wire Line
+	4850 3050 4850 4000
+Wire Wire Line
+	4950 4100 4625 4100
+Wire Wire Line
+	4950 2350 4950 4100
+Wire Wire Line
+	5050 4200 4625 4200
+Wire Wire Line
+	5050 2200 5050 4200
+Wire Wire Line
+	5175 4400 4625 4400
+Wire Wire Line
+	5175 2050 5175 4400
+Wire Wire Line
+	5875 4800 5875 4500
+Wire Wire Line
+	5875 4500 4625 4500
+$EndSCHEMATC
